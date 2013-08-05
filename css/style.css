@@ -32,8 +32,7 @@ body
     /*
       Fallback for browsers that don't support pseudo elements.
       */
-
-    background: url('images/bg.jpg');
+    background: url('images/bg_image.jpg');
 }
 
 body:before
@@ -52,8 +51,8 @@ body:before
       set background-size to "cover".
       */
 
-    background: url('images/bg.jpg');
-    background-size: 100% 100%;
+    background: url('images/bg_image.jpg');
+    /*background-size: 100% 100%;*/
 }
 
 /*
@@ -839,8 +838,7 @@ ol.style1 li
     position: absolute;
     top: 0;
     left: 0;
-    background: url('images/overlay.png');
-    width: 100%;
+    /*background: url('images/overlay.png');*/
     height: 100%;
     z-index: 1;
 }

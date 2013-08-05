@@ -27,24 +27,32 @@ body, input, textarea
     font-size: 14pt;
     line-height: 1.75em;
 }
-
+h1, h2, h3, h4, h5, h6 {
+	letter-spacing: -0.015em;
+	}
 h1
 {
-    font-size: 2.4em;
-    letter-spacing: -0.015em;
+    font-size: 1.7em;  
 }
 
 h2
 {
     font-size: 1.8em;
-    letter-spacing: -0.015em;
 }
 
-h3, h4, h5, h6
+h3
 {
     font-size: 1.25em;
-    letter-spacing: -0.015em;
 }
+h4 {
+	font-size: 1em;
+	}
+h5 {
+	font-size: 0.8em;
+	}
+h6 {
+	font-size: 0.5em;
+	}
 
 header
 {
@@ -89,7 +97,7 @@ ul.links li:before
 .byline
 {
     margin: 0.5em 0 0 0;
-}
+}	
 
 .is-gallery
 {
@@ -131,7 +139,7 @@ ul.links li:before
 {
     font-size: 2.5em;
     margin: 0 0.25em 0 0.25em;
-    opacity: 0.35;
+    opacity: 0.9;
     outline: 0;
 }
 
@@ -252,6 +260,8 @@ ul.links li:before
     position: relative;
     display: block;
     height: 100%;
+    /*padding: 20px;*/
+    background-color: antiquewhite;
 }
 
 #me .pic .arrow
@@ -301,25 +311,29 @@ ul.links li:before
     top: 0;
     width: 100%;
     height: 100%;
-    margin-left: 2.5em;
+    /* margin-left: 2.5em; */
 }
 
 #me h1
 {
     position: absolute;
     left: 0;
-    bottom: 52.5%;
-    margin: 0;
+    bottom: 88%;
+    margin-left: 20px;
 }
 
 #me .byline
 {
     position: absolute;
     left: 0;
-    top: 52.5%;
-    font-size: 1.5em;
+    top: 12%;
+    font-size: 1em;
     letter-spacing: -0.015em;
     margin-top: 0;
+    width: 100%;
+    padding-left: 22px;
+    font-weight: 800;
+    background-color: antiquewhite;
 }
 
 /*********************************************************************************/
