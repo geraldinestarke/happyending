@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  /* src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://themes.googleusercontent.com/static/fonts/sourcesanspro/v5/toadOcfmlt9b38dHJxOBGMw1o1eFRj7wYC6JbISqOjY.ttf) format('truetype'); */
+  src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(sourcesanspro-300.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  /* src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(https://themes.googleusercontent.com/static/fonts/sourcesanspro/v5/ODelI1aHBYDBqgeIAH2zlNzbP97U9sKh0jjxbPbfOKg.ttf) format('truetype'); */
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(sourcesanspro-400.woff) format('woff');
+}
