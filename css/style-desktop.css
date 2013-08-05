@@ -27,23 +27,23 @@ body, input, textarea
     font-size: 14pt;
     line-height: 1.75em;
 }
+
 h1, h2, h3, h4, h5, h6 {
 	letter-spacing: -0.015em;
 	}
-h1
-{
-    font-size: 1.7em;  
+
+h1 {
+    font-size: 1.7em;
 }
 
-h2
-{
+h2 {
     font-size: 1.8em;
 }
 
-h3
-{
+h3 {
     font-size: 1.25em;
 }
+
 h4 {
 	font-size: 1em;
 	}
@@ -59,12 +59,10 @@ header
     margin: 0 0 1.5em 0;
 }
 
-ul.links
-{
+ul.links {
 }
 
-ul.links li
-{
+ul.links li {
 }
 
 ul.links li:before
@@ -72,39 +70,32 @@ ul.links li:before
     padding: 0 0.75em 0 0.75em;
 }
 
-.button
-{
+.button {
     padding: 0.7em 1.5em 0.7em 1.5em;
 }
 
-.button-small
-{
+.button-small {
     font-size: 0.75em;
 }
 
-.button-big
-{
+.button-big {
     font-size: 1.25em;
     padding: 0.5em 1.25em 0.5em 1.25em;
 }
 
-.button-huge
-{
+.button-huge {
     font-size: 1.5em;
     padding: 0.5em 1.25em 0.5em 1.25em;
 }
 
-.byline
-{
+.byline {
     margin: 0.5em 0 0 0;
-}	
-
-.is-gallery
-{
 }
 
-.is-gallery .image
-{
+.is-gallery {
+}
+
+.is-gallery .image {
     margin: 0;
 }
 
@@ -112,15 +103,13 @@ ul.links li:before
 /* Wrapper                                                                       */
 /*********************************************************************************/
 
-#wrapper
-{
+#wrapper {
     width: 45em;
     margin: 0 auto;
     opacity: 0.00001;
 }
 
-#wrapper.tall
-{
+#wrapper.tall {
     padding-bottom: 6em;
 }
 
@@ -128,28 +117,24 @@ ul.links li:before
 /* Nav                                                                           */
 /*********************************************************************************/
 
-#nav
-{
+#nav {
     text-align: center;
     height: 4.25em;
     cursor: default;
 }
 
-#nav a
-{
+#nav a {
     font-size: 2.5em;
     margin: 0 0.25em 0 0.25em;
     opacity: 0.9;
     outline: 0;
 }
 
-#nav a:before
-{
+#nav a:before {
     font-size: 0.8em;
 }
 
-#nav a:after
-{
+#nav a:after {
     content: '';
     display: block;
     position: absolute;
@@ -166,8 +151,7 @@ ul.links li:before
     transition: border-bottom-width .25s ease-in-out;
 }
 
-#nav a span
-{
+#nav a span {
     display: block;
     position: absolute;
     background: #222222;
@@ -178,14 +162,13 @@ ul.links li:before
     line-height: 2.25em;
     left: 50%;
     opacity: 0;
-    
+
     /* Labels not wide enough? Increase its width below and set margin-left to ((width / 2) * -1) */
     width: 5.5em;
     margin-left: -2.75em;
 }
 
-#nav a span:after
-{
+#nav a span:after {
     content: '';
     display: block;
     position: absolute;
@@ -197,23 +180,19 @@ ul.links li:before
     border-right: solid 0.6em transparent;
 }
 
-#nav a:hover
-{
+#nav a:hover {
     opacity: 1.0;
 }
 
-#nav a:hover span
-{
-    opacity: 1.0;
-}	
-
-#nav a.active
-{
+#nav a:hover span {
     opacity: 1.0;
 }
 
-#nav a.active:after
-{
+#nav a.active {
+    opacity: 1.0;
+}
+
+#nav a.active:after {
     border-bottom-width: 0.5em;
 }
 
@@ -221,15 +200,13 @@ ul.links li:before
 /* Panels                                                                        */
 /*********************************************************************************/
 
-#main
-{
+#main {
     width: 45em;
     background: #fff;
     box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.25);
 }
 
-.panel
-{
+.panel {
     padding: 3.5em 2.5em 3.5em 2.5em;
     position: absolute;
     top: 0;
@@ -239,14 +216,12 @@ ul.links li:before
 
 /* Me */
 
-#me
-{
+#me {
     padding: 0;
     height: 20em;
 }
 
-#me .pic
-{
+#me .pic {
     display: block;
     position: absolute;
     right: -1px;
@@ -255,8 +230,7 @@ ul.links li:before
     text-decoration: none;
 }
 
-#me .pic img
-{
+#me .pic img {
     position: relative;
     display: block;
     height: 100%;
@@ -264,8 +238,7 @@ ul.links li:before
     background-color: antiquewhite;
 }
 
-#me .pic .arrow
-{
+#me .pic .arrow {
     display: block;
     position: absolute;
     right: 0;
@@ -287,25 +260,21 @@ ul.links li:before
     transition: width .15s ease-in-out, padding-right .15s ease-in-out;
 }
 
-#me .pic .arrow:before
-{
+#me .pic .arrow:before {
     padding-right: 0;
 }
 
-#me .pic .arrow span
-{
+#me .pic .arrow span {
     display: block;
     text-indent: -9999px;
 }
 
-#me .pic:hover .arrow
-{
+#me .pic:hover .arrow {
     width: 3em;
     padding-right: 0.25em;
 }
 
-#me header
-{
+#me header {
     position: absolute;
     left: 0;
     top: 0;
@@ -314,16 +283,14 @@ ul.links li:before
     /* margin-left: 2.5em; */
 }
 
-#me h1
-{
+#me h1 {
     position: absolute;
     left: 0;
     bottom: 88%;
     margin-left: 20px;
 }
 
-#me .byline
-{
+#me .byline {
     position: absolute;
     left: 0;
     top: 12%;
@@ -340,8 +307,7 @@ ul.links li:before
 /* Footer                                                                        */
 /*********************************************************************************/
 
-#footer
-{
+#footer {
     text-align: center;
     padding: 2em 0 0 0;
     font-size: 0.75em;
