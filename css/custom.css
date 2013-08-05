@@ -53,8 +53,8 @@
 /*    padding:  */
 }
 
-.petit {
-    font-size: 80%;
+.reference {
+    font-size: 70%;
 }
 
 .liste ul, .liste ol, .liste li {
@@ -64,26 +64,31 @@
 .pillier {
     border: 0;
     background: white;
-    margin: 0 auto 0 0;
+    /*margin: 0 auto 0 0;*/
     width: 880px;
     margin-top: 0;
     width: 100%;
 }
 
 .title-block {
-    width: 235px;
-    padding: 30px 20px 0 20px
+    /*width: 235px;*/
+    /*padding: 10px 60px 0 5px;*/
+    margin-top: 12px;
     float: left;
+    margin-right: 60px;
 }
 
 .content {
     padding: 15px 20px 15px 0;
-    font-size: 12px;
+    font-size: 17px;
     width: 605px;
-    height: 221px;
     color: #777;
-    font-size: 12px;
-    line-height: 1.286em;
+    line-height: 1.2em;
+    column-width: 250px;
+    -moz-column-width: 250px;
+    -webkit-column-width: 250px;
+    text-align: justify;
+    
 }
 
 td {
@@ -97,19 +102,35 @@ td {
     text-transform: uppercase;
     color: #f80063;
     font-weight: bold;
+    margin-bottom: 0;
 }
 
 .subtitle {
     font-size: 16px;
     font-variant: small-caps;
     color: #777;
-    padding: 5px 0 0 25px;
+    padding-left: 25px;
+    font-weight: bold;
 }
 
 .pillier > p {
     line-height: 1.3;
     font-size: 17px;
-    column-width: 200px;
-    -moz-column-width: 200px; /* Firefox */
-    -webkit-column-width: 200px; /* Safari and Chrome */
 }
+
+.space {
+	width: 100%;
+	height: 60px;
+	}
+	
+.formule {
+	float: left;
+	}
+	
+.picture {
+	width: 100%;
+	height: 150px;
+	}
+	
+
+
