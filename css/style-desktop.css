@@ -29,8 +29,8 @@ body, input, textarea
 }
 
 h1, h2, h3, h4, h5, h6 {
-	letter-spacing: -0.015em;
-	}
+    letter-spacing: -0.015em;
+}
 
 h1 {
     font-size: 1.7em;
@@ -45,14 +45,14 @@ h3 {
 }
 
 h4 {
-	font-size: 1em;
-	}
+    font-size: 1em;
+}
 h5 {
-	font-size: 0.8em;
-	}
+    font-size: 0.8em;
+}
 h6 {
-	font-size: 0.5em;
-	}
+    font-size: 0.5em;
+}
 
 header
 {
@@ -280,7 +280,7 @@ ul.links li:before
     top: 0;
     width: 100%;
     height: 100%;
-    /* margin-left: 2.5em; */
+/* margin-left: 2.5em; */
 }
 
 #me h1 {
