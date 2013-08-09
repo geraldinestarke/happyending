@@ -60,9 +60,11 @@ header
 }
 
 ul.links {
+        background-color: #fed4cc;
 }
 
 ul.links li {
+        color: #777;
 }
 
 ul.links li:before
@@ -235,7 +237,7 @@ ul.links li:before
     display: block;
     height: 100%;
     /*padding: 20px;*/
-    background-color: antiquewhite;
+    background-color: #fed4cc;
 }
 
 #me .pic .arrow {
@@ -300,7 +302,7 @@ ul.links li:before
     width: 100%;
     padding-left: 22px;
     font-weight: 800;
-    background-color: antiquewhite;
+    background-color: #fed4cc;
 }
 
 /*********************************************************************************/
