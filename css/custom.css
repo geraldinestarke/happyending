@@ -1,9 +1,73 @@
+.logo {
+    position: absolute;
+    background-image: url('../images/logo.png');
+    width: 300px;
+    height: 300px;
+    z-index: 99;
+/* top: 0; */
+/* left: -10px; */
+/* float: left; */
+/*margin: 0 auto;*/
+/*margin-bottom: 30px;*/
+}
+
+#nav {
+    margin-top: 100px;
+}
+
+.me_photo {
+    background-image: url('../images/me.png');
+    width: 305px;
+    height: 400px;
+}
+
+.byline {
+    left: 0;
+    top: 12%;
+    font-size: 1em;
+    letter-spacing: -0.015em;
+    margin-top: 0;
+    width: 65%;
+    padding-left: 22px;
+    font-weight: 800;
+    background-color: #ffdd55;
+}
+
+#presentation {
+    /* width: 63%; */
+    width: 70%;
+    background: url('images/box.png') no-repeat;
+    /* width: 515px; */
+    height: 400px;
+    margin-top: 10px;
+    /* margin-left: 30px; */
+    padding-left: 160px;
+    /* padding: 40px; */
+    padding-top: 40px;
+    padding-right: 95px;
+    /* left: -100px; */
+    /* position: absolute; */
+    line-height: 1em;
+}
+
+#presentation p {
+    /* margin: 15px 45px; */
+    margin-bottom: 30px;
+}
+
+.highlight {
+    text-decoration: underline;    
+}
+
+.justify {
+    text-align: justify;
+    hyphens: auto;
+}
+
 .text {
     margin: 2em 0 0 0;
     border: 0;
     vertical-align: baseline;
-    width: 63%;
-    text-align: justify;
 }
 
 .text > h5, p {
@@ -12,21 +76,21 @@
 }
 
 .specifique {
-    font: bold;
-    background-color: gainsboro;
-    padding: 0 5px;
+    font-weight: 400;
+    /*background-color: #f47216;*/
+    /*padding: 0 5px;*/
+    color: #f47216;
 }
 
 .text2 {
     margin: 0 0 1.5em 0;
     width: 100%;
     height: 100%;
-    text-align: justify;
+    
 }
 
 .lien {
     text-decoration: none;
-    background-color: #fed4cc;
     color: #777; 
 }
 
@@ -35,18 +99,19 @@
 }
 
 #me .text {
-    position: absolute;
-    left: 0;
-    top:18%;
+    /* position: absolute; */
+    /* left: 0; */
+    /* top:18%; */
     margin-left: 2%;
-/*font-size: 88%;*/
+    /*font-size: 88%;*/
+    margin-top: 50px;
 }
 
 #bouton {
     line-height: 50px;
     width: 120px;
     border: 2px solid #777;
-    background-color: #fed4cc;
+    background-color: #ffdd55;
     border-radius: 5px;
     margin: auto;
     text-align: center;
@@ -89,8 +154,10 @@
     column-width: 250px;
     -moz-column-width: 250px;
     -webkit-column-width: 250px;
-    text-align: justify;
-    
+}
+
+.content p {
+    height: 450px;
 }
 
 td {
@@ -102,7 +169,7 @@ td {
 .title {
     font-size: 18px;
     text-transform: uppercase;
-    color: #fc8068;
+    color: #006900;
     font-weight: bold;
     margin-bottom: 0;
 }
@@ -113,6 +180,7 @@ td {
     color: #777;
     padding-left: 25px;
     font-weight: bold;
+    line-height: 0;
 }
 
 .pillier > p {
@@ -158,26 +226,42 @@ td {
 
 .smallcaps {
     font-size: 17px;
-    color: #fc8068;
+    color: #006900;
     font-weight: bold;
     height: 50px;
     margin-bottom: 0;
     word-spacing: 3px;
+    text-align: center;
+    margin-top: 10px;fpr
 }
 
 .description {
-        height: 220px;
-        }
-        
-.text_style {
-        font-size: 17px;
-        }
+    height: 220px;
+    margin-top: 10px;
+}
 
-a:hover {
-        text-decoration: underline;
-        }
-        
+.text_style {
+    font-size: 17px;
+}
+
+#main a:hover {
+    text-decoration: underline;
+}
+
 .icon-leaf > a {
-        padding-left: 40px;
-        }
+    padding-left: 40px;
+}
+
+.icon-leaf {
+    background-color: #ffdd55;
+}
+
+h2 {
+    text-align: center;
+}
+
+/*.background {
+  background-color: #ffdd55;
+  }*/
+
 
